@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>CalendarEventTemplate</title>
+</head>
+<body style="color:#6D6E71;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:9px;background-color:#FFFFFF;">
+    <br />
+    	<span style="color:#6D6E71;font-weight:bold;font-size:16px;">|EVENTTYPE|</span><br />
+    <br />
+        <table style="border:1px solid #ADB1BD;border-collapse:collapse;width:80%;">
+          <tr style="background-color:#FFFFFF">
+            <td colspan="3" style="background-color:#0072C6;">
+            <img src="https://storage.orveecrm.com/images/spacer.gif" alt="Spacer" width="1" height="5" />
+            </td>
+          </tr>
+          <tr style="background-color:#FFFFFF">
+            <td colspan="3" style="background-color:#FFFFFF;padding:5px;border-bottom:1px solid #ADB1BD;">
+            <span style="font-size:16px;font-weight:bold;">
+            <a href="|LINK|index.php?m=affiliation&s=items&a=view&n=|USERID|" title="Ver Afiliado" target="_blank">
+            |EVENTWHO|
+            </a>
+            </span>
+            </td>
+          </tr>
+          <tr style="background-color:#FFFFFF">
+            <td style="width:20%;text-align:center;background-color:#F0F6FB;padding:10px;vertical-align:top;border-right:1px solid #ADB1BD;">
+            <span style="font-size:16px;font-weight:bold;">
+            |EVENTDATE|
+            </span>
+            <br />
+            <span style="font-size:16px;font-weight:bold;">
+            |EVENTTIME|
+            </span>
+            </td>
+            <td style="width:50%;text-align:left;background-color:#FFFFFF;padding:10px;vertical-align:top;border-right:1px solid #ADB1BD;">
+            <span style="font-size:11px;">
+            <span style="font-size:14px;font-weight:bold;">|EVENTTITLE|</span><br />
+            |EVENTDESC|<br />
+            <br />
+			Cu&aacute;ndo<br />
+			<span style="font-size:11px;font-weight:bold;padding-left:15px;">|EVENTWHEN|</span><br />
+            <br />
+			Ubicaci&oacute;n<br />
+			<span style="font-size:11px;font-weight:bold;padding-left:15px;">|EVENTWHERE|</span>
+            </span>
+            </td>
+            <td style="width:30%;text-align:left;background-color:#FFFFFF;padding:10px;vertical-align:top;">
+            <span style="font-size:10px;">
+            |SCHEDULE|
+            </span>
+            <br /><br />
+            <a href="|LINK|index.php?m=interactions&s=calendar&a=view&n=|USERID|&cid=|CALENDARID|&date=|CALENDARDATE|&t=day" title="Ver Afiliado" target="_blank">
+            &raquo; Ver Agenda
+            </a><br />
+            <!--<a href="#">Agregar a Mi Calendario Outlook</a><br />-->
+            <a href="|LINK|index.php?m=affiliation&s=items&a=view&n=|USERID|" title="Ver Afiliado" target="_blank">
+            &raquo; Retroalimentar
+            </a><br />
+            </td>
+          </tr>
+        </table>
+    <br />
+    <br />
+        <span style="color:#999999;font-size:8px;">
+        |APP|@|TIME|<br />
+        </span>
+    <br />
+    <img src="https://storage.orveecrm.com/images/trademark.png" alt="Trademark" width="134" height="46" />
+    <!--<img src="https://storage.orveecrm.com/images/FooterLogoOrigis1.png" alt="Origis" width="101" height="40" />-->
+    <br />
+</body>
+</html>

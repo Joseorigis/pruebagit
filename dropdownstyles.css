@@ -1,0 +1,186 @@
+/* STYLES for switch or dropdown */
+/* APPLICATION CSS Document */
+	/* color primary #0072C6 */
+	/* color secondary #00528E -> bakcground */
+	/* color third #F0F6FB */
+	/* color base #6D6E71 */	
+	
+	#dropdowncontainer {
+		/*width:780px;*/
+		margin:0 auto;
+		position: relative;
+	}
+	
+	#content {
+		/*width:520px;*/
+		min-height:500px;
+	}
+	
+	/* dropdown navigation */
+	#dropdownnav {
+		/*padding:10px 0px 12px;*/
+		padding:10px 0px 0px;
+		font-size:11px;
+		/*line-height:23px;*/
+		text-align:right;
+	}
+	#dropdownnav a.oswitch {
+		/*background:#88bbd4;*/
+		padding:4px 6px 6px;
+		text-decoration:none;
+		font-weight:bold;
+		/*color:#fff;*/
+		-webkit-border-radius:4px;
+		-moz-border-radius:4px;
+		border-radius:4px;
+		*background:transparent url("images/spacer.gif") no-repeat 0 0;
+		*padding:4px 12px 6px;
+	}
+	#dropdownnav a.oswitch {
+		*background-position:0 3px!important;
+	}
+	
+	a.oswitch {
+		position:relative;
+		margin-left:3px;
+	}
+	a.oswitch span {
+		background-image:url("images/toggle_down_light.png");
+		background-repeat:no-repeat;
+		background-position:100% 50%;
+		padding:4px 16px 6px 0;
+	}
+	#dropdownnav a.menu-open {
+		background:#00528E;
+		/*background:#ADB1BD;*/
+		/*color:#666!important;*/
+		color:#fff;
+		outline:none;
+	}
+	#small_signup {
+		display:inline;
+		float:none;
+		line-height:23px;
+		margin:25px 0 0;
+		width:170px;
+	}
+	a.oswitch.menu-open span {
+		background-image:url("images/toggle_up_dark.png");
+		/*color:#789;*/
+		color:#fff;
+	}
+	.oswitchuser {
+		font-size:16px;
+		color:#F0F6FB;
+		font-weight: bold;
+		line-height:36px;
+	}
+	.oswitchimagenuser {
+		border: 1px solid #F0F6FB;
+		padding: 2px;
+		background-color: #FFFFFF;
+	}		
+	
+
+	/* dropdown content */
+	#dropdowncontent {
+		-moz-border-radius-topleft:5px;
+		-moz-border-radius-bottomleft:5px;
+		-moz-border-radius-bottomright:5px;
+		-webkit-border-top-left-radius:5px;
+		-webkit-border-bottom-left-radius:5px;
+		-webkit-border-bottom-right-radius:5px;
+		display:none;
+		background-color:#00528E;
+		position:absolute;
+		width:320px;
+		z-index:100;
+		border:1px transparent;
+		/*border:1px solid #ADB1BD;*/
+		text-align:left;
+		line-height:20px;
+		padding:12px;
+		/*padding:12px;*/
+		top: 24.5px; 
+		right: 0px; 
+		margin-top:5px;
+		margin-right: 0px;
+		*margin-right: -1px;
+		/*color:#789;*/
+		color:#fff;
+		font-size:11px;
+	}
+	
+	#dropdowncontent input[type=text], #dropdowncontent input[type=password] {
+		display:block;
+		-moz-border-radius:4px;
+		-webkit-border-radius:4px;
+		border:1px solid #ACE;
+		font-size:13px;
+		margin:0 0 5px;
+		padding:5px;
+		width:203px;
+	}
+	#dropdowncontent p {
+		margin:0;
+	}
+	#dropdowncontent a {
+		/*color:#6AC;*/
+		color:#fff;
+	}
+	#dropdowncontent label {
+		font-weight:normal;
+	}
+	#dropdowncontent p.remember {
+		padding:10px 0;
+	}
+	#dropdowncontent p.forgot, #dropdowncontent p.complete {
+		clear:both;
+		margin:5px 0;
+	}
+	#dropdowncontent p a {
+		color:#27B!important;
+	}
+	
+	/* TIPSY: tooltips */
+	.tipsy-inner {
+		padding:10px 15px;
+		line-height:1.5em;
+		font-weight:bold;
+	}
+	.tipsy {
+		opacity:.9;
+		filter:alpha(opacity=90);
+		background-repeat:no-repeat;
+		padding:5px;
+	}
+	.tipsy-inner {
+		padding:8px 8px;
+		max-width:200px;
+		font:11px 'Lucida Grande', sans-serif;
+		font-weight:bold;
+		-moz-border-radius:4px;
+		-khtml-border-radius:4px;
+		-webkit-border-radius:4px;
+		border-radius:4px;
+		/*background-color:#000;*/
+		background-color:#F78F1E;
+		color:white;
+		text-align:left;
+	}
+	.tipsy-north {
+		background-image:url(images/tipsy-north.gif);
+		background-position:top center;
+	}
+	.tipsy-south {
+		background-image:url(images/tipsy-south.gif);
+		background-position:bottom center;
+	}
+	.tipsy-east {
+		background-image:url(images/tipsy-east.gif);
+		background-position:right center;
+	}
+	.tipsy-west {
+		background-image:url(images/tipsy-west.gif);
+		background-position:left center;
+	}
